@@ -1,0 +1,107 @@
+/* 
+colors used:
+primary color: (royal blue): #03256C 
+secondary color: (pine green): #167F6F
+tertiary color: (denim): #0059B2
+background color: (bone): #DDDACB
+text color: (black): #000000
+second text color: (white) #FFFFFF
+*/
+
+body {
+    background-color: #dddacb;
+    font-family: 'open sans', sans-serif;
+    font-size: 16px; 
+    font-weight: 300;
+    line-height: 1.6;
+    color: #000000
+}
+h1, h2, h3, h4 {
+    line-height: 1.4;
+    color: #03256c
+}
+h1 {
+    font-size: 2.75em;
+    font-weight: 700;
+}
+h2 {
+    font-size: 2.25em;
+    font-weight: 700;
+}
+h3 {
+    font-size: 1.75em;
+    font-weight: 400;
+}
+h4 {
+    font-size: 1.35em;
+    font-weight: 400;
+}
+img {
+    width: 100%;
+}
+
+a:link {
+    color: #0059b2;
+}
+a:visited {
+    color: #0059B2;
+} 
+a:focus {
+    color: #ffffff;
+    text-decoration: underline;
+} 
+a:active {
+    color: #167f6f
+    text-decoration: none;
+}
+
+.button.cv {
+    display: inline-block;
+    background-color: #03256c;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 8px;
+    border-bottom: 2px solid #03256c;
+    transition: 0.2s opacity;
+}
+.button.cv:hover {
+    border-radius: 8px;
+    opacity: 0.8;
+    color: #ffffff;
+}
+
+.button.read {
+    display: inline-block;
+    background-color: #03256c;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 8px;
+    border-bottom: 2px solid #03256c;
+    transition: 0.2s opacity;
+}
+.button.read:hover {
+    border-radius: 8px;
+    opacity: 0.8;
+    color: #ffffff;
+}
+.button.contact {
+    display: inline-block;
+    background-color: transparent;
+    color: #167f6f !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 8px;
+    border-bottom: 2px solid #167F6F;
+    border-top: 2px solid #167f6f;
+    border-right: 2px solid #167f6f;
+    border-left: 2px solid #167f6f;
+    transition: 0.2s opacity;
+}
+.button.contact:hover {
+    border-radius: 8px;
+    background-color: #167f6f;
+    color: #ffffff !important;
+}

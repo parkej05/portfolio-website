@@ -8,6 +8,9 @@ text color: (black): #000000
 second text color: (white) #FFFFFF
 */
 
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: #dddacb;
     font-family: 'open sans', sans-serif;
@@ -42,7 +45,7 @@ img {
 
 a:link {
     color: #000000;
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: 600;
 }
 a:visited {
@@ -67,6 +70,9 @@ a:active {
     border-radius: 8px;
     border-bottom: 2px solid #03256c;
     transition: 0.2s opacity;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(39, 71, 99, 0.5);
+-moz-box-shadow:    7px 7px 5px 0px rgba(39, 71, 99, 0.5);
+box-shadow:         7px 7px 5px 0px rgba(39, 71, 99, 0.5);
 }
 .button.cv:hover {
     border-radius: 8px;
@@ -83,6 +89,9 @@ a:active {
     border-radius: 8px;
     border-bottom: 2px solid #03256c;
     transition: 0.2s opacity;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(39, 71, 99, 0.5);
+-moz-box-shadow:    7px 7px 5px 0px rgba(39, 71, 99, 0.5);
+box-shadow:         7px 7px 5px 0px rgba(39, 71, 99, 0.5);
 }
 .button.read:hover {
     border-radius: 8px;
@@ -97,14 +106,102 @@ a:active {
     font-weight: 700;
     padding: 10px;
     border-radius: 8px;
-    border-bottom: 2px solid #167F6F;
-    border-top: 2px solid #167f6f;
-    border-right: 2px solid #167f6f;
-    border-left: 2px solid #167f6f;
+    border: 2px solid #167F6F;
     transition: 0.2s opacity;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(39, 71, 99, 0.5);
+-moz-box-shadow:    7px 7px 5px 0px rgba(39, 71, 99, 0.5);
+box-shadow:         7px 7px 5px 0px rgba(39, 71, 99, 0.5);
 }
 .button.contact:hover {
     border-radius: 8px;
     background-color: #167f6f;
     color: #ffffff !important;
 }
+
+/* Layout styling */
+.container {
+    padding: 0 15px;
+}
+.row {
+    margin: 25px 0;
+}
+#hero h1 {
+    text-align: center;
+}
+#hero .container > span > p {
+    text-align: center;
+    padding-left: 15px; padding-right: 15px;
+}
+.logo {
+    max-width: 250px;
+}
+header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(147, 147, 147, 0.75);
+-moz-box-shadow:    7px 7px 5px 0px rgba(147, 147, 147, 0.75);
+box-shadow:         7px 7px 5px 0px rgba(147, 147, 147, 0.75);
+}
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav > ul > li {
+    display: inline-block;
+}
+nav > ul > li > a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #4a4a4a
+}
+nav > ul > li > a:visited {
+    color: #03256c;
+    font-weight: 700;
+} 
+nav > ul > li > a:hover {
+    color: #167f6f;
+    text-decoration: underline;
+    font-weight: 700;
+} 
+nav > ul > li > a:active {
+    color: #0059b2
+}
+nav {
+    display: inline-block;
+    width: 100%;
+}
+#hero {
+    background-color: #ffffff;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+main {
+    padding-top: 133px;
+}
+#work .row {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #4a4a4a;
+}
+
+
+#contact > .container {
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 15px; padding-bottom: 15px;
+}
+footer > div.container > div.social > ul {
+    list-style-type: none;
+}
+footer > div.container > div.social > ul > li {
+    display: inline-block;
+}
+footer > div.container > div.social > ul > li > a {
+    padding: 0 15px;
+}
+
+

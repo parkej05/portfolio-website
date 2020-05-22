@@ -120,7 +120,7 @@ box-shadow:         7px 7px 5px 0px rgba(39, 71, 99, 0.5);
 
 /* Layout styling */
 .container {
-    padding: 0 15px;
+    padding: 0 30px;
 }
 .row {
     margin: 25px 0;
@@ -128,6 +128,39 @@ box-shadow:         7px 7px 5px 0px rgba(39, 71, 99, 0.5);
 #hero h1 {
     text-align: center;
 }
+#expert h1 {
+    text-align: center;
+}
+
+#about h1 {
+    text-align: center;
+}
+#about h2 {
+    text-align: center;
+}
+#about .cv1 {
+    text-align: center;
+}
+#about .cv2 {
+    text-align: center;
+}
+#about .cv3 {
+    text-align: center;
+}
+#about .cv1 > ul {
+    list-style-type: none;
+    padding: 0;
+}
+#about .cv2 > ul {
+    list-style-type: none;
+    padding: 0;
+}
+#about .cv3 > ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
 #hero .container > span > p {
     text-align: center;
     padding-left: 15px; padding-right: 15px;
@@ -183,11 +216,15 @@ nav {
 main {
     padding-top: 133px;
 }
+
 #work .row {
     padding-bottom: 25px;
     border-bottom: 1px solid #4a4a4a;
 }
-
+.container-column {
+    text-align: left;
+    padding: 5%;
+}
 
 #contact > .container {
     background-color: #ffffff;

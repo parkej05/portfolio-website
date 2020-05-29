@@ -265,7 +265,41 @@ footer > div.container > div.social > ul > li > a {
     animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
-    
+@keyframes color-change-2 {
+    0% {fill: #74d84d;}
+    50% {fill: #1d862f;}
+    100% {fill: #14f7b3;}
+}
+
+.avocado {
+    animation: 10s color-change-2 infinite alternate linear;
+}
+
+@keyframes food-move {
+    from {transform: translate(162px, 267px);}
+    to {transform: translate(142px, 267px);}
+}
+.food {
+    animation: 10s food-move infinite alternate linear;
+}
+
+@keyframes world-move {
+    from {transform: translate(238px, 215px);}
+    to {transform: translate(208px, 215px);}
+}
+
+.world {
+    animation: 10s world-move infinite alternate linear;
+}
+
+@keyframes day-move {
+    from {transform: translate(215px, 295px);}
+    to {transform: translate(245px, 295px);}
+}
+.day {
+    animation: 10s day-move infinite alternate linear;
+}
+
 /*===============================
 Medium devices (640px and larger)
 ================================*/

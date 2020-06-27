@@ -160,17 +160,15 @@ box-shadow:         7px 7px 5px 0px rgba(39, 71, 99, 0.5);
     padding: 0;
 }
 
-
 #hero .container > span > p {
     text-align: center;
     padding-left: 15px; padding-right: 15px;
 }
 .logo {
-    max-width: 250px;
+    max-width: 150px;
 }
 header {
     background-color: #ffffff;
-    text-align: center;
     padding: 10px 0;
     position: fixed;
     width: 100%;
@@ -182,8 +180,8 @@ nav > ul {
     list-style-type: none;
     padding: 0;
 }
-nav > ul > li {
-    display: inline-block;
+.navtoggle li:not(:last-child) {
+    display: none;
 }
 nav > ul > li > a {
     padding: 0 15px;
@@ -240,7 +238,23 @@ footer > div.container > div.social > ul > li {
 footer > div.container > div.social > ul > li > a {
     padding: 0 15px;
 }
-
+[class*="col-"] {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.col-sm-12 {
+    width: 100%;
+}
+.logoWrapper {
+    margin-top: 20px;
+    float: left;
+}
 
 @keyframes color-change {
     0% {fill: #edc655;}
@@ -313,6 +327,13 @@ Medium devices (640px and larger)
         float: right;
         margin-top: 4px;
     }
+    nav > ul > li {
+        min-width: 641px;
+        display: inline-block;
+    }
+    .navtoggle li:not(:last-child) {
+        display: inline-block;
+    }
     main {
         padding-top: 99px;
     }
@@ -328,15 +349,8 @@ Medium devices (640px and larger)
     .col-md-6 {
         width: 50%;
     }
-    [class*="col-"] {
-        float: left;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .row::after {
-        content: "";
-        clear: both;
-        display: table;
+    .col-md-4 {
+        width: 33.33%
     }
     #about h3 {
         margin-top: 0;

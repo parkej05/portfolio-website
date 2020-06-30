@@ -169,7 +169,7 @@ box-shadow:         7px 7px 5px 0px rgba(39, 71, 99, 0.5);
 }
 header {
     background-color: #ffffff;
-    padding: 10px 0;
+    padding: 10px 0 4px;
     position: fixed;
     width: 100%;
     -webkit-box-shadow: 7px 7px 5px 0px rgba(147, 147, 147, 0.75);
@@ -179,9 +179,7 @@ box-shadow:         7px 7px 5px 0px rgba(147, 147, 147, 0.75);
 nav > ul {
     list-style-type: none;
     padding: 0;
-}
-.navtoggle li:not(:last-child) {
-    display: none;
+    margin: 0;
 }
 nav > ul > li > a {
     padding: 0 15px;
@@ -201,9 +199,21 @@ nav > ul > li > a:hover {
 nav > ul > li > a:active {
     color: #0059b2
 }
-nav {
-    display: inline-block;
-    width: 100%;
+.navtoggle li:not(:last-child) {
+    display: none;
+}
+.navtoggle, .navtoggle.responsive {
+    position: relative;
+}
+.navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+    padding-right: 0;
+}
+.navtoggle.responsive li {
+    display: block;
 }
 #hero {
     background-color: #ffffff;
@@ -212,7 +222,7 @@ nav {
     width: 100%;
 }
 main {
-    padding-top: 133px;
+    padding-top: 99px;
 }
 
 #work .row {
@@ -327,6 +337,9 @@ Medium devices (640px and larger)
         float: right;
         margin-top: 4px;
     }
+    nav > ul {
+        margin: 1em 0;
+    }
     nav > ul > li {
         min-width: 641px;
         display: inline-block;
@@ -335,7 +348,7 @@ Medium devices (640px and larger)
         display: inline-block;
     }
     main {
-        padding-top: 99px;
+        padding-top: 261px;
     }
     body {
         font-size: 18px;

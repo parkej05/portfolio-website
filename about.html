@@ -6,20 +6,23 @@
         <title>About Jennifer Parker</title>
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <script src="https://kit.fontawesome.com/568d0a7e18.js" crossorigin="anonymous"></script>
     </head>
     <body id="about">
         <header>
+            <script src="https://kit.fontawesome.com/568d0a7e18.js" crossorigin="anonymous"></script>
             <div class="container">
-                <div class="logoWrapper" class="navtoggle" id="myNavtoggle">
-                    <img class="logo" scr="img/logo/logo2x.svg" alt="Jennifer Parker UX logo">
+                <div class="navtoggle" id="myNavtoggle">
+                    <img class="logo" src="img/logo/blue2x.png"Jennifer Parker UX logo">
                 </div>
-                <nav class="menuToggle()">
+                <nav>
                     <ul>
                         <li><a href="index.html">Work</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="#contact">Contact</a></li>
-                        <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a></li>
+                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars" aria-hidden="true">
+                            </i>
+                            </a>
+                        </li>
                     </ul>
                 </nav>
             </div> 
@@ -34,7 +37,7 @@
                 <div class="row"> <!-- open yellow container two -->
                     <picture>
                         <source srcset="img/about/jen.jpg" media="(max-width:767px)">
-                        <img src="img/about/jen2x.jpg" alt="Jennifer self portrait">
+                        <img src="img/about/jen2x.jpg" alt="Jennifer self portrait" class="profile">
                     </picture>
                     <div class="column"> <!-- open major green row for columns -->
                         <div class="column-1"> <!-- open major light blue column one -->

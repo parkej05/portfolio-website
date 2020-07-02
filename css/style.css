@@ -120,7 +120,8 @@ box-shadow:         7px 7px 5px 0px rgba(39, 71, 99, 0.5);
 
 /* Layout styling */
 .container {
-    padding: 0 30px;
+    padding: 0 20px;
+    display: inline-block;
 }
 .row {
     margin: 25px 0;
@@ -164,6 +165,7 @@ box-shadow:         7px 7px 5px 0px rgba(39, 71, 99, 0.5);
     text-align: center;
     padding-left: 15px; padding-right: 15px;
 }
+
 .logo {
     max-width: 150px;
 }
@@ -176,6 +178,33 @@ header {
 -moz-box-shadow:    7px 7px 5px 0px rgba(147, 147, 147, 0.75);
 box-shadow:         7px 7px 5px 0px rgba(147, 147, 147, 0.75);
 }
+.navtoggle li:not(:last-child) {
+    display: none;
+}
+.navtoggle, .navtoggle.responsive {
+    position: relative;
+}
+.navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+    padding-right: 0;
+}
+.navtoggle.responsive nav {
+    padding: 24px 0 0;
+}
+.navtoggle.responsive li {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid rgba (255,127,80.0.5);
+}
+.navtoggle.responsive li:last-child {
+    padding: 0 0 10px;
+}
+nav {
+    width: 100%;
+}
 nav > ul {
     list-style-type: none;
     padding: 0;
@@ -183,6 +212,7 @@ nav > ul {
 }
 nav > ul > li > a {
     padding: 0 15px;
+    display: inline-block;
     text-transform: uppercase;
     font-weight: 700;
     color: #4a4a4a
@@ -199,22 +229,7 @@ nav > ul > li > a:hover {
 nav > ul > li > a:active {
     color: #0059b2
 }
-.navtoggle li:not(:last-child) {
-    display: none;
-}
-.navtoggle, .navtoggle.responsive {
-    position: relative;
-}
-.navtoggle li .icon {
-    position: absolute;
-    right: 0;
-    top: 2px;
-    font-size: 20px;
-    padding-right: 0;
-}
-.navtoggle.responsive li {
-    display: block;
-}
+
 #hero {
     background-color: #ffffff;
     padding: 20px 0;
@@ -222,7 +237,7 @@ nav > ul > li > a:active {
     width: 100%;
 }
 main {
-    padding-top: 99px;
+    padding-top: 175px;
 }
 
 #work .row {
@@ -260,10 +275,6 @@ footer > div.container > div.social > ul > li > a {
 }
 .col-sm-12 {
     width: 100%;
-}
-.logoWrapper {
-    margin-top: 20px;
-    float: left;
 }
 
 @keyframes color-change {
@@ -332,7 +343,15 @@ Medium devices (640px and larger)
         text-align: unset;
         padding: 20px 0 13px;
     }
-    nav {
+    .logo {
+        max-width: 200px;
+    }
+    .profile {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    div.nav {
         width: auto;
         float: right;
         margin-top: 4px;
@@ -341,14 +360,18 @@ Medium devices (640px and larger)
         margin: 1em 0;
     }
     nav > ul > li {
-        min-width: 641px;
+        display: inline-block;
+        padding: 0;
+        list-style-type: none;
+    }
+    .navtoggle > li:not(:last-child) {
         display: inline-block;
     }
-    .navtoggle li:not(:last-child) {
-        display: inline-block;
+    .navtoggle > li:last-child {
+        display: none;
     }
     main {
-        padding-top: 261px;
+        padding-top: 150px;
     }
     body {
         font-size: 18px;

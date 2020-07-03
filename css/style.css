@@ -121,7 +121,7 @@ box-shadow:         7px 7px 5px 0px rgba(39, 71, 99, 0.5);
 /* Layout styling */
 .container {
     padding: 0 20px;
-    display: inline-block;
+    display: block;
 }
 .row {
     margin: 25px 0;
@@ -163,7 +163,8 @@ box-shadow:         7px 7px 5px 0px rgba(39, 71, 99, 0.5);
 
 #hero .container > span > p {
     text-align: center;
-    padding-left: 15px; padding-right: 15px;
+    padding-left: 15px; 
+    padding-right: 15px;
 }
 
 .logo {
@@ -178,10 +179,19 @@ header {
 -moz-box-shadow:    7px 7px 5px 0px rgba(147, 147, 147, 0.75);
 box-shadow:         7px 7px 5px 0px rgba(147, 147, 147, 0.75);
 }
+
 .navtoggle li:not(:last-child) {
     display: none;
 }
-.navtoggle, .navtoggle.responsive {
+
+@media only screen and (min-width: 641px) {
+    .navtoggle li:not(:last-child) {
+        display: inline-block;
+    }
+}
+
+.navtoggle, 
+.navtoggle.responsive {
     position: relative;
 }
 .navtoggle li .icon {
@@ -197,7 +207,7 @@ box-shadow:         7px 7px 5px 0px rgba(147, 147, 147, 0.75);
 .navtoggle.responsive li {
     display: block;
     padding: 10px 0;
-    border-top: 1px solid rgba (255,127,80.0.5);
+    border-top: 1px solid rgba (255, 127, 80.5);
 }
 .navtoggle.responsive li:last-child {
     padding: 0 0 10px;
@@ -252,7 +262,8 @@ main {
 #contact > .container {
     background-color: #ffffff;
     text-align: center;
-    padding-top: 15px; padding-bottom: 15px;
+    padding-top: 15px; 
+    padding-bottom: 15px;
 }
 footer > div.container > div.social > ul {
     list-style-type: none;
@@ -348,10 +359,10 @@ Medium devices (640px and larger)
     }
     .profile {
         max-width: 400px;
-        margin-left: auto;
-        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
     }
-    div.nav {
+    nav {
         width: auto;
         float: right;
         margin-top: 4px;
@@ -364,12 +375,15 @@ Medium devices (640px and larger)
         padding: 0;
         list-style-type: none;
     }
+
     .navtoggle > li:not(:last-child) {
         display: inline-block;
     }
-    .navtoggle > li:last-child {
+
+    .navtoggle li:last-child {
         display: none;
     }
+
     main {
         padding-top: 150px;
     }
@@ -391,7 +405,6 @@ Medium devices (640px and larger)
     #about h3 {
         margin-top: 0;
     }
-
 }
 /*===============================
 Large devices (1024px and larger)
@@ -408,7 +421,6 @@ Large devices (1024px and larger)
         margin-left: auto;
         margin-right: auto;
     }
-
 }
 
 /*===============================

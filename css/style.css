@@ -247,7 +247,7 @@ nav > ul > li > a:active {
     width: 100%;
 }
 main {
-    padding-top: 175px;
+    padding-top: 85px;
 }
 
 #work .row {
@@ -359,8 +359,9 @@ Medium devices (640px and larger)
     }
     .profile {
         max-width: 400px;
-        padding-left: auto;
-        padding-right: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     nav {
         width: auto;
@@ -385,7 +386,7 @@ Medium devices (640px and larger)
     }
 
     main {
-        padding-top: 150px;
+        padding-top: 120px;
     }
     body {
         font-size: 18px;

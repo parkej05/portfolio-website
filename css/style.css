@@ -126,6 +126,10 @@ box-shadow:         7px 7px 5px 0px rgba(39, 71, 99, 0.5);
 .row {
     margin: 25px 0;
 }
+#work h2 {
+    text-align: center;
+    font-size: 2.50em;
+}
 #hero h1 {
     text-align: center;
 }
@@ -278,6 +282,8 @@ footer > div.container > div.social > ul > li > a {
     float: left;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 .row::after {
     content: "";

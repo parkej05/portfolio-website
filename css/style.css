@@ -275,6 +275,7 @@ main {
 }
 footer > div.container > div.social > ul {
     list-style-type: none;
+    padding-inline-start: 0px;
 }
 footer > div.container > div.social > ul > li {
     display: inline-block;

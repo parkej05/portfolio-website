@@ -1,298 +1,703 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1"> 
-        <title>About Jennifer Parker</title>
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <script src="https://kit.fontawesome.com/568d0a7e18.js" crossorigin="anonymous"></script>
-        <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet">
-        <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet">
-        <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet">
-    </head>
-    <body id="expert">
-        <header>
-            <div class="container">
-                <div class="navtoggle" id="myNavtoggle">
-                    <img class="logo" src="img/logo/blue2x.png" alt="Jennifer Parker UX logo">
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="files/uxresume.pdf">Resume</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                            <li>
-                                <a href="javascript:void(0);" class="icon" onclick="menuToggle()">
-                                    <i class="fas fa-bars" aria-hidden="true"> </i>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div> 
-        </header>
-        <main>
-            <div class="container"> <!-- open title container -->
-                <div class="row"> <!-- open -->
-                    <h1>Fit Now</h1>
-                </div> <!-- close -->
-            </div> <!-- close title container -->
-            <div class="container"> <!-- open orange container -->
-                <div class="row"> <!-- open yellow container -->
-                    <picture>
-                        <source srcset="img/fitnow/responsive-mockup-exercise-details@1x.png" media="(max-width:767px)">
-                            <img src="img/fitnow/responsive-mockup-exercise-details@2x.png" alt="Fit Now responsive web app mockup">
-                    </picture>
-                    <div class="container-column"> <!-- open overview title container one -->
-                        <div> <!-- open overview title container two -->
-                            <h2>Overview</h2>
-                                <div> <!-- challenge section -->
-                                    <div>
-                                        <h3>The Challenge</h3>
-                                        <p>For the UI for UX Design course with Career Foundry, I was challenged to create a responsive web app that would motivate people with different fitness levels, schedules, and interests, to exercise.</p>
-                                    </div>
-                                </div>
-                                <div> <!-- background section -->
-                                    <div>
-                                        <h3>The Background</h3>
-                                        <p>When beginning a new fitness journey, it can be difficult to find exercises that are right for your skill level and interests. It can be even more challenging to find time to exercise with a busy schedule.</p>
-                                        <p>The goal of this app is to simplify the process of finding and learning exercises that suit any individual's needs. Additionally, it aims to motivate people to stick with fitness by helping to incorporate these exercises into their current lifestyle.</p>
-                                    </div>
-                                </div>
-                                <div> <!-- role sectcion -->
-                                    <div>
-                                        <h3>My Role</h3>
-                                        <p>I was responsible for the IU design of this project including: wireframes, mood board, final UI mockups, interactive prototype, animation, style guide, brand icon and icon set, and handoff package. The time frame for this project was December 2019 - April 2020.</p>
-                                    </div>
-                                </div>
-                        </div> <!-- cose overview title container two -->
-                    </div> <!-- close overview title container one -->
-                    <div class="container-column"><!-- open research container one--> 
-                        <div> <!-- open research container two-->
-                            <h2>Research</h2>
-                            <p>I began by researching other fitness apps to learn how they solved the design problems that this app would present. I discovered that many apps had simple user flows that allowed users to access workouts and exercise information immediately or with very few clicks. This is optimal for people with busy schedules and limited time.</p>
-                            <p>Additionally, creating this as a responsive web app would be ideal, so people can search for or view exercises from anywhere, and add these exercises to their personal calendar.</p>
-                        </div><!-- close research container two-->
-                    </div><!-- close research container one -->
-                    <div class="container-column"><!--open my approach container one-->
-                        <div> <!--open my approach container two-->
-                            <h2>My Approach</h2>
-                            <h2>Persona</h2>
-                            <div><!--open persona container-->
-                                <div><!--open persona container two-->
-                                    <picture>
-                                        <source srcset="img/fitnow/persona-rebecca.jpg" media="(max-width:767px)">
-                                        <img src="img/fitnow/persona-rebecca@2x.jpg" alt="Persona Rebecca for Fit Now">
-                                    </picture>
-                                        <div><!-- open text about persona-->
-                                            <div>
-                                                <p>Using the UX research provided in the project brief, I compiled information into a persona to guide my UI design work. Visually bringing the persona to life makes it seem more realistic and easier to design from the user's perspective.</p>
-                                            </div>
-                                        </div><!--close text about persona-->
-                                </div><!-- close persona container two-->
-                            </div><!-- close persona container -->
-                        </div><!--close my approach container two-->
-                    </div><!--close my approach container one -->
-                    <div class="container-column"><!--open paper wirefames -->
-                        <div><!--open paper wireframes two-->
-                            <h2>Paper Wireframes</h2>
-                            <p>I used a <b>mobile-first approach</b> to creating this app to focus on the core functions users would need to achieve their goals. I started by sketching out my preliminary ideas for the app's basic functionality using paper wireframes. These key functions were derived from user stories based on the needs and goals of the persona, Rebecca.</p>
-                            <div><!-- open key functions list-->
-                                <div>
-                                    <h3>Key Functions</h3>
-                                    <ul>
-                                        <li><b>Searching</b> for new exercises</li>
-                                        <li><b>Learning</b> about how to do different exercises</li>
-                                        <li><b>Scheduling</b> exercises in a personal calendar</li>
-                                        <li>Special <b>daily challenges</b> for additional motivation</li>
-                                        <li>Earning <b>achievements</b> for completing exercise goals</li>
-                                        <li>Tracking personal <b>progress</b></li>
-                                        <li><b>Sharing</b> exercises with friends</li>
-                                    </ul>
-                                </div>
-                            </div><!--close key functions list-->    
-                            <div><!--open pw pic 1-->
-                                <div>
-                                    <picture>
-                                        <source srcset="img/fitnow/paper-wireframes-fn-1.png" media="(max-width:767px)">
-                                            <img src="img/fitnow/paper-wireframes-fn-1@2x.png" alt="Fit Now paper wireframes picture 1">
-                                    </picture>
-                                </div>
-                            </div><!-- close pw pic1-->
-                            <div><!-- open pw pic 2-->
-                                <div>
-                                    <picture>
-                                        <source srcset="img/fitnow/paper-wireframes-fn-2.png" media="(max-width:767px)">
-                                            <img src="img/fitnow/paper-wireframes-fn-2@2x.png" alt="Fit Now paper wireframes picture 2">
-                                    </picture>
-                                </div>
-                            </div><!-- close pw pic2-->
-                            <div><!-- open pw pic 3-->
-                                <div>
-                                    <picture>
-                                        <source srcset="img/fitnow/paper-wireframes-fn-3.png" media="(max-width:767px)">
-                                            <img src="img/fitnow/paper-wireframes-fn-3@2x.png" alt="Fit Now paper wireframes picture 3">
-                                    </picture>
-                                </div>
-                            </div><!-- close pw pic 3-->
-                        </div><!--close wireframes two -->
-                    </div><!--close wireframes -->
-                    <div class="container-column"><!-- open mood board one-->
-                        <div><!-- open mood board two-->
-                            <h2>Mood Board</h2>
-                            <div><!-- open picture mood board one-->
-                                <div>
-                                    <picture>
-                                        <source srcset="img/fitnow/mood-board@1x.jpg" media="(max-width:767px)">
-                                            <img src="img/fitnow/mood-board@2x.jpg" alt="Fit Now Mood Board">
-                                    </picture>
-                                        <p>Partial branding guidelines were given for this challenge. Therefore, I built a mood board to clearly define the design direction that I felt suited my persona's background and goals.</p>
-                                        <p>Rebecca needs an app that will help her add quick, low intensity exercises that are not overly complicated into her busy schedule. Therefore, I created a mood that is motivating and energizing, but not intimidating. Exactly what Rebecca needs.</p>
-                                </div>
-                            </div><!-- close picture mood board one-->
-                        </div><!-- close mood board two-->
-                    </div><!--close mood board one-->
-                    <div class="container-column"><!-- open mobile mockups one-->
-                        <div><!-- open mobile mockups two-->
-                            <h2>Mobile Mockups</h2>
-                            <picture> 
-                                <source srcset="img/fitnow/mobile-mockups-svg-one@1x.png" media="(max-width:767px)">
-                                    <img src="img/fitnow/mobile-mockups-svg-one@2x.png" alt="Mobile Mockups for Fit now page 1">
-                            </picture>
-                            <picture>
-                                <source srcset="img/fitnow/mobile-mockups-svg-two@1x.png" media="(max-width:767px)">
-                                    <img src="img/fitnow/mobile-mockups-svg-two@2x.png" alt="Mobile Mockups for Fit now page 2">
-                            </picture>
-                            <picture>
-                                <source srcset="img/fitnow/mobile-mockups-svg-three@1x.png" media="(max-width:767px)">
-                                    <img src="img/fitnow/mobile-mockups-svg-three@2x.png" alt="Mobile Mockups for Fit now page 3">
-                            </picture>
-                            <picture>
-                                <source srcset="img/fitnow/mobile-mockups-svg-four@1x.png" media="(max-width:767px)">
-                                    <img src="img/fitnow/mobile-mockups-svg-four@2x.png" alt="Mobile Mockups for Fit now page 4">
-                            </picture>
-                            <div>
-                                <div>
-                                    <p>By using a mobile first approach, I was able to focus closely on only what is MOST important to a user of this app. At the top of that list is starting a workout.</p>
-                                    <p>After quickly establishing their starting point and goals, users land at the dashboard. Here they can immediately view a workout with one simple click, and they can start the workout with a second click.</p>
-                                    <p>I utilized text sizes, contrast, positioning and white space to help create a visual hierarchy on each of the screens. This helps users quickly scan to figure out how to complete their desired task.</p>
-                                </div>
-                            </div>
-                        </div><!-- close mobile mockups two-->
-                    </div><!--close mobile mockups one-->
-                    <div class="container-column"><!-- open tablet and desktop paper wireframes-->
-                        <div><!-- open tablet and desktop paper wireframes two-->
-                            <h2>Paper Wireframes: Desktop and Tablet</h2>
-                            <picture>
-                                <source srcset="img/fitnow/paper-desktop-dashboard@1x.png" media="(max-width:767px)">
-                                    <img src="img/fitnow/paper-desktop-dashboard@2x.png" alt="Desktop paper wireframe for Fit Now dashboard screen">
-                            </picture>
-                            <picture>
-                                <source srcset="img/fitnow/paper-desktop-exercise-details@1x.png" media="(max-width:767px)">
-                                    <img src="img/fitnow/paper-desktop-exercise-details@2x.png" alt="Desktop paper wireframe for Fit Now exercise details screen">
-                            </picture>
-                            <picture>
-                                <source srcset="img/fitnow/paper-desktop-results@1x.png" media="(max-width:767px)">
-                                    <img src="img/fitnow/paper-desktop-results@2x.png" alt="Desktop paper wireframe for Fit Now search results screen">
-                            </picture>
-                            <picture>
-                                <source srcset="img/fitnow/paper-tablet-dashboard@1x.png" media="(max-width:767px)">
-                                    <img src="img/fitnow/paper-tablet-dashboard@2x.png" alt="Tablet paper wireframe for Fit Now dashboard screen">
-                            </picture>
-                            <picture>
-                                <source srcset="img/fitnow/paper-tablet-exercise-details@1x.png" media="(max-width:767px)">
-                                    <img src="img/fitnow/paper-tablet-exercise-details@2x.png" alt="Tablet paper wireframe for Fit Now exercise details screen">
-                            </picture>
-                            <picture>
-                                <source srcset="img/fitnow/paper-tablet-results@1x.png" media="(max-width:767px)">
-                                    <img src="img/fitnow/paper-tablet-results@2x.png" alt="Tablet paper wireframe for Fit Now search results screens">
-                            </picture>
-                            <div>
-                                <div>
-                                    <p>After completing the UI for mobile, l expanded the designs into tablet and desktop views to complete the responsive app. My navigation remained the same, but I scaled up the size of many elements and was able to add extra details to allow users to see more at a glance.</p>
-                                </div>
-                            </div>
-                        </div><!-- close tablet and desktop paper wireframes two-->
-                    </div><!-- close tablet and desktop paper wireframes-->
-                    <div class="container-column"><!-- open style guide -->
-                        <div><!-- open style guide two -->
-                            <h2>Style Guide</h2>
-                                <picture> 
-                                    <source srcset="img/fitnow/style-guide-1@1x.jpg" media="(max-width:767px)">
-                                        <img src="img/fitnow/style-guide-1@2x.jpg" alt="Fit Now Style Guide page 1">
-                                </picture>
-                                <picture>
-                                    <source srcset="img/fitnow/style-guide-2@1x.jpg" media="(max-width:767px)">
-                                        <img src="img/fitnow/style-guide-2@2x.jpg" alt="Fit Now Style Guide page 2">
-                                </picture>
-                                <div>
-                                    <div>
-                                        <p>To ensure that my design guidelines for the Fit Now app can be consistently applied by anyone who picks up the project moving forward, I created a style guide.</p>
-                                        <a href="https://www.dropbox.com/s/80o4hkjkbpgxpuq/Task%202.3%20Style%20Guide.pdf?dl=0">Check out my full style guide here.</a>
-                                    </div>
-                                </div>                                
-                        </div><!-- close style guide -->
-                    </div><!-- close style guide two -->
-                    <div class="container-column"><!-- open prototype -->
-                        <div><!-- open prototype two -->
-                            <h2>Prototype</h2>
-                                <p>View my interative prototype on InVision!</p>
-                                <a href="https://invis.io/GUW67KON73X">Fit Now Prototype</a>
-                        </div><!-- close prototype two -->
-                    </div><!-- close prototype -->
-                    <div class="container-column">
-                        <div>
-                            <h2>Animation</h2>
-                                <p>I created a simple, yet fun animation to get people excited to begin their workout. After clicking the "start" button, the animation launches and counts down. It elicits a feeling of competition, which will motivate people to give their best effort during the workout.</p>
-                                <picture>
-                                    <source srcset="img/fitnow/gif-fit-now1x.gif" media="(max-width:767px)">
-                                        <img src="img/fitnow/gif-fit-now@2x.gif" alt="Stop light gif animation"> 
-                                </picture>
-                        </div>
-                    </div>
-                    <div class="container-column"><!-- open conclusion-->
-                        <h2>Conclusion: The Final UI</h2>
-                            <picture>
-                                <source srcset="img/fitnow/perspective-mockups-mobile-fn@1x.png" media="(max-width:767px)">
-                                    <img src="img/fitnow/perspective-mockups-mobile-fn@2x.png" alt="Mobile perspective mockups for Fit Now app">
-                            </picture>
-                            <picture>
-                                <source srcset="img/fitnow/responsive-mockup-dashboard@1x.png" media="(max-width:767px)">
-                                    <img src="img/fitnow/responsive-mockup-dashboard@2x.png" alt="Responsive Mockup for Fit Now dashboard screens">
-                            </picture>
-                    </div><!-- close conclusion-->
-                </div> <!-- close row with everything in it -->
-            </div> <!-- close container with everything in it --> 
-        </main>
-        <footer id="contact">
-            <div class="container">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About Jennifer Parker</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/568d0a7e18.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css"
+      media="all"
+      rel="stylesheet"
+    />
+    <link
+      href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css"
+      media="all"
+      rel="stylesheet"
+    />
+    <link
+      href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css"
+      media="all"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="expert">
+    <header>
+      <div class="container">
+        <div class="navtoggle" id="myNavtoggle">
+          <img
+            class="logo"
+            src="img/logo/blue2x.png"
+            alt="Jennifer Parker UX logo"
+          />
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="files/uxresume.pdf">Resume</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="menuToggle()"
+                >
+                  <i class="fas fa-bars" aria-hidden="true"> </i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <!-- open title container -->
+        <div class="row">
+          <!-- open -->
+          <h1>Fit Now</h1>
+        </div>
+        <!-- close -->
+      </div>
+      <!-- close title container -->
+      <div class="container">
+        <!-- open orange container -->
+        <div class="row">
+          <!-- open yellow container -->
+          <picture>
+            <source
+              srcset="img/fitnow/responsive-mockup-exercise-details@1x.png"
+              media="(max-width:767px)"
+            />
+            <img
+              src="img/fitnow/responsive-mockup-exercise-details@2x.png"
+              alt="Fit Now responsive web app mockup"
+            />
+          </picture>
+          <div class="container-column">
+            <!-- open overview title container one -->
             <div>
-                <h2>Get in Touch</h2>
-                <p>Like my work and want to discuss opportunities? Please contact me by Skype: <a href="skype:jennifer.parker91_1">live.jennifer.parker91_1</a>.</p> 
-                <p>Or Contact me via Email:</p>
+              <!-- open overview title container two -->
+              <h2>Overview</h2>
+              <div>
+                <!-- challenge section -->
+                <div>
+                  <h3>The Challenge</h3>
+                  <p>
+                    For the UI for UX Design course with Career Foundry, I was
+                    challenged to create a responsive web app that would
+                    motivate people with different fitness levels, schedules,
+                    and interests, to exercise.
+                  </p>
+                </div>
+              </div>
+              <div>
+                <!-- background section -->
+                <div>
+                  <h3>The Background</h3>
+                  <p>
+                    When beginning a new fitness journey, it can be difficult to
+                    find exercises that are right for your skill level and
+                    interests. It can be even more challenging to find time to
+                    exercise with a busy schedule.
+                  </p>
+                  <p>
+                    The goal of this app is to simplify the process of finding
+                    and learning exercises that suit any individual's needs.
+                    Additionally, it aims to motivate people to stick with
+                    fitness by helping to incorporate these exercises into their
+                    current lifestyle.
+                  </p>
+                </div>
+              </div>
+              <div>
+                <!-- role sectcion -->
+                <div>
+                  <h3>My Role</h3>
+                  <p>
+                    I was responsible for the IU design of this project
+                    including: wireframes, mood board, final UI mockups,
+                    interactive prototype, animation, style guide, brand icon
+                    and icon set, and handoff package. The time frame for this
+                    project was December 2019 - April 2020.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- cose overview title container two -->
+          </div>
+          <!-- close overview title container one -->
+          <div class="container-column">
+            <!-- open research container one-->
+            <div>
+              <!-- open research container two-->
+              <h2>Research</h2>
+              <p>
+                I began by researching other fitness apps to learn how they
+                solved the design problems that this app would present. I
+                discovered that many apps had simple user flows that allowed
+                users to access workouts and exercise information immediately or
+                with very few clicks. This is optimal for people with busy
+                schedules and limited time.
+              </p>
+              <p>
+                Additionally, creating this as a responsive web app would be
+                ideal, so people can search for or view exercises from anywhere,
+                and add these exercises to their personal calendar.
+              </p>
+            </div>
+            <!-- close research container two-->
+          </div>
+          <!-- close research container one -->
+          <div class="container-column">
+            <!--open my approach container one-->
+            <div>
+              <!--open my approach container two-->
+              <h2>My Approach</h2>
+              <h2>Persona</h2>
+              <div>
+                <!--open persona container-->
+                <div>
+                  <!--open persona container two-->
+                  <picture>
+                    <source
+                      srcset="img/fitnow/persona-rebecca.jpg"
+                      media="(max-width:767px)"
+                    />
+                    <img
+                      src="img/fitnow/persona-rebecca@2x.jpg"
+                      alt="Persona Rebecca for Fit Now"
+                    />
+                  </picture>
+                  <div>
+                    <!-- open text about persona-->
                     <div>
-                        <a href="mailto:jennifer@gmail.com" class="button contact">Email me</a>
+                      <p>
+                        Using the UX research provided in the project brief, I
+                        compiled information into a persona to guide my UI
+                        design work. Visually bringing the persona to life makes
+                        it seem more realistic and easier to design from the
+                        user's perspective.
+                      </p>
                     </div>
+                  </div>
+                  <!--close text about persona-->
+                </div>
+                <!-- close persona container two-->
+              </div>
+              <!-- close persona container -->
             </div>
-            <div class="social">
-                <!--- Social media -->
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/jennifer-parker-rd-ldn-a85b7498" target="_blank"> 
-                        <svg enable-background="new 0 0 32 32" height="50px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="50px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M32,30c0,1.104-0.896,2-2,2H2c-1.104,0-2-0.896-2-2V2c0-1.104,0.896-2,2-2h28c1.104,0,2,0.896,2,2V30z" fill="#007BB5"/><g><rect fill="#FFFFFF" height="14" width="4" x="7" y="11"/><path d="M20.499,11c-2.791,0-3.271,1.018-3.499,2v-2h-4v14h4v-8c0-1.297,0.703-2,2-2c1.266,0,2,0.688,2,2v8h4v-7    C25,14,24.479,11,20.499,11z" fill="#FFFFFF"/><circle cx="9" cy="8" fill="#FFFFFF" r="2"/></g></g><g/><g/><g/><g/><g/><g/></svg>
-                        </a></li>
-                    <li><a href="https://twitter.com/Jennife95719329" target="_blank"> 
-                        <svg enable-background="new 0 0 48 48" id="Layer_1" version="1.1" viewBox="0 0 48 48" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="24" cy="24" fill="#1CB7EB" r="24"/><g><g><path d="M36.8,15.4c-0.9,0.5-2,0.8-3,0.9c1.1-0.7,1.9-1.8,2.3-3.1c-1,0.6-2.1,1.1-3.4,1.4c-1-1.1-2.3-1.8-3.8-1.8    c-2.9,0-5.3,2.5-5.3,5.7c0,0.4,0,0.9,0.1,1.3c-4.4-0.2-8.3-2.5-10.9-5.9c-0.5,0.8-0.7,1.8-0.7,2.9c0,2,0.9,3.7,2.3,4.7    c-0.9,0-1.7-0.3-2.4-0.7c0,0,0,0.1,0,0.1c0,2.7,1.8,5,4.2,5.6c-0.4,0.1-0.9,0.2-1.4,0.2c-0.3,0-0.7,0-1-0.1    c0.7,2.3,2.6,3.9,4.9,3.9c-1.8,1.5-4.1,2.4-6.5,2.4c-0.4,0-0.8,0-1.3-0.1c2.3,1.6,5.1,2.6,8.1,2.6c9.7,0,15-8.6,15-16.1    c0-0.2,0-0.5,0-0.7C35.2,17.6,36.1,16.6,36.8,15.4z" fill="#FFFFFF"/></g></g></svg>
-                        </a></li>
-                    <li><a href="https://www.behance.net/jenniferparker4" target="_blank"> 
-                        <svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_1" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M38.031,27.257c-3.174,0-3.615,3.168-3.615,3.168h6.748C41.164,30.425,41.207,27.257,38.031,27.257z"/><path d="M22.721,30.425h-5.982v5.492h5.296c0.09,0,0.225,0.002,0.383,0c0.852-0.02,2.467-0.268,2.467-2.67   C24.885,30.396,22.721,30.425,22.721,30.425z"/><path d="M28.348,5.101c-13.6,0-24.625,11.023-24.625,24.623c0,13.6,11.025,24.625,24.625,24.625   c13.598,0,24.623-11.025,24.623-24.625C52.971,16.125,41.945,5.101,28.348,5.101z M33.531,20.231h8.477v2.53h-8.477V20.231z    M29.246,33.503c0,6.271-6.525,6.064-6.525,6.064h-5.982h-0.175h-4.535V19.021h4.535h0.175h5.982c3.248,0,5.812,1.794,5.812,5.47   c0,3.676-3.135,3.91-3.135,3.91C29.531,28.401,29.246,33.503,29.246,33.503z M45.104,33.167H34.457   c0,3.816,3.615,3.576,3.615,3.576c3.414,0,3.295-2.211,3.295-2.211h3.617c0,5.867-7.033,5.465-7.033,5.465   c-8.436,0-7.893-7.855-7.893-7.855s-0.008-7.893,7.893-7.893C46.268,24.249,45.104,33.167,45.104,33.167z"/><path d="M24.174,24.81c0-2.137-1.453-2.137-1.453-2.137h-0.77h-5.212v4.584h5.611C23.318,27.257,24.174,26.946,24.174,24.81z"/></g></svg>
-                        </a></li>
-                </ul>
+            <!--close my approach container two-->
+          </div>
+          <!--close my approach container one -->
+          <div class="container-column">
+            <!--open paper wirefames -->
+            <div>
+              <!--open paper wireframes two-->
+              <h2>Paper Wireframes</h2>
+              <p>
+                I used a <b>mobile-first approach</b> to creating this app to
+                focus on the core functions users would need to achieve their
+                goals. I started by sketching out my preliminary ideas for the
+                app's basic functionality using paper wireframes. These key
+                functions were derived from user stories based on the needs and
+                goals of the persona, Rebecca.
+              </p>
+              <div>
+                <!-- open key functions list-->
+                <div>
+                  <h3>Key Functions</h3>
+                  <ul>
+                    <li><b>Searching</b> for new exercises</li>
+                    <li><b>Learning</b> about how to do different exercises</li>
+                    <li><b>Scheduling</b> exercises in a personal calendar</li>
+                    <li>
+                      Special <b>daily challenges</b> for additional motivation
+                    </li>
+                    <li>
+                      Earning <b>achievements</b> for completing exercise goals
+                    </li>
+                    <li>Tracking personal <b>progress</b></li>
+                    <li><b>Sharing</b> exercises with friends</li>
+                  </ul>
+                </div>
+              </div>
+              <!--close key functions list-->
+              <div>
+                <!--open pw pic 1-->
+                <div>
+                  <picture>
+                    <source
+                      srcset="img/fitnow/paper-wireframes-fn-1.png"
+                      media="(max-width:767px)"
+                    />
+                    <img
+                      src="img/fitnow/paper-wireframes-fn-1@2x.png"
+                      alt="Fit Now paper wireframes picture 1"
+                    />
+                  </picture>
+                </div>
+              </div>
+              <!-- close pw pic1-->
+              <div>
+                <!-- open pw pic 2-->
+                <div>
+                  <picture>
+                    <source
+                      srcset="img/fitnow/paper-wireframes-fn-2.png"
+                      media="(max-width:767px)"
+                    />
+                    <img
+                      src="img/fitnow/paper-wireframes-fn-2@2x.png"
+                      alt="Fit Now paper wireframes picture 2"
+                    />
+                  </picture>
+                </div>
+              </div>
+              <!-- close pw pic2-->
+              <div>
+                <!-- open pw pic 3-->
+                <div>
+                  <picture>
+                    <source
+                      srcset="img/fitnow/paper-wireframes-fn-3.png"
+                      media="(max-width:767px)"
+                    />
+                    <img
+                      src="img/fitnow/paper-wireframes-fn-3@2x.png"
+                      alt="Fit Now paper wireframes picture 3"
+                    />
+                  </picture>
+                </div>
+              </div>
+              <!-- close pw pic 3-->
             </div>
-                <p>Copyright Jennifer Parker 2020</p>
+            <!--close wireframes two -->
+          </div>
+          <!--close wireframes -->
+          <div class="container-column">
+            <!-- open mood board one-->
+            <div>
+              <!-- open mood board two-->
+              <h2>Mood Board</h2>
+              <div>
+                <!-- open picture mood board one-->
+                <div>
+                  <picture>
+                    <source
+                      srcset="img/fitnow/mood-board@1x.jpg"
+                      media="(max-width:767px)"
+                    />
+                    <img
+                      src="img/fitnow/mood-board@2x.jpg"
+                      alt="Fit Now Mood Board"
+                    />
+                  </picture>
+                  <p>
+                    Partial branding guidelines were given for this challenge.
+                    Therefore, I built a mood board to clearly define the design
+                    direction that I felt suited my persona's background and
+                    goals.
+                  </p>
+                  <p>
+                    Rebecca needs an app that will help her add quick, low
+                    intensity exercises that are not overly complicated into her
+                    busy schedule. Therefore, I created a mood that is
+                    motivating and energizing, but not intimidating. Exactly
+                    what Rebecca needs.
+                  </p>
+                </div>
+              </div>
+              <!-- close picture mood board one-->
             </div>
-        </footer> 
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script src="js/script.js"></script>
-    </body>
+            <!-- close mood board two-->
+          </div>
+          <!--close mood board one-->
+          <div class="container-column">
+            <!-- open mobile mockups one-->
+            <div>
+              <!-- open mobile mockups two-->
+              <h2>Mobile Mockups</h2>
+              <picture>
+                <source
+                  srcset="img/fitnow/mobile-mockups-svg-one@1x.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/fitnow/mobile-mockups-svg-one@2x.png"
+                  alt="Mobile Mockups for Fit now page 1"
+                />
+              </picture>
+              <picture>
+                <source
+                  srcset="img/fitnow/mobile-mockups-svg-two@1x.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/fitnow/mobile-mockups-svg-two@2x.png"
+                  alt="Mobile Mockups for Fit now page 2"
+                />
+              </picture>
+              <picture>
+                <source
+                  srcset="img/fitnow/mobile-mockups-svg-three@1x.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/fitnow/mobile-mockups-svg-three@2x.png"
+                  alt="Mobile Mockups for Fit now page 3"
+                />
+              </picture>
+              <picture>
+                <source
+                  srcset="img/fitnow/mobile-mockups-svg-four@1x.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/fitnow/mobile-mockups-svg-four@2x.png"
+                  alt="Mobile Mockups for Fit now page 4"
+                />
+              </picture>
+              <div>
+                <div>
+                  <p>
+                    By using a mobile first approach, I was able to focus
+                    closely on only what is MOST important to a user of this
+                    app. At the top of that list is starting a workout.
+                  </p>
+                  <p>
+                    After quickly establishing their starting point and goals,
+                    users land at the dashboard. Here they can immediately view
+                    a workout with one simple click, and they can start the
+                    workout with a second click.
+                  </p>
+                  <p>
+                    I utilized text sizes, contrast, positioning and white space
+                    to help create a visual hierarchy on each of the screens.
+                    This helps users quickly scan to figure out how to complete
+                    their desired task.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- close mobile mockups two-->
+          </div>
+          <!--close mobile mockups one-->
+          <div class="container-column">
+            <!-- open tablet and desktop paper wireframes-->
+            <div>
+              <!-- open tablet and desktop paper wireframes two-->
+              <h2>Paper Wireframes: Desktop and Tablet</h2>
+              <picture>
+                <source
+                  srcset="img/fitnow/paper-desktop-dashboard@1x.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/fitnow/paper-desktop-dashboard@2x.png"
+                  alt="Desktop paper wireframe for Fit Now dashboard screen"
+                />
+              </picture>
+              <picture>
+                <source
+                  srcset="img/fitnow/paper-desktop-exercise-details@1x.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/fitnow/paper-desktop-exercise-details@2x.png"
+                  alt="Desktop paper wireframe for Fit Now exercise details screen"
+                />
+              </picture>
+              <picture>
+                <source
+                  srcset="img/fitnow/paper-desktop-results@1x.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/fitnow/paper-desktop-results@2x.png"
+                  alt="Desktop paper wireframe for Fit Now search results screen"
+                />
+              </picture>
+              <picture>
+                <source
+                  srcset="img/fitnow/paper-tablet-dashboard@1x.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/fitnow/paper-tablet-dashboard@2x.png"
+                  alt="Tablet paper wireframe for Fit Now dashboard screen"
+                />
+              </picture>
+              <picture>
+                <source
+                  srcset="img/fitnow/paper-tablet-exercise-details@1x.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/fitnow/paper-tablet-exercise-details@2x.png"
+                  alt="Tablet paper wireframe for Fit Now exercise details screen"
+                />
+              </picture>
+              <picture>
+                <source
+                  srcset="img/fitnow/paper-tablet-results@1x.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/fitnow/paper-tablet-results@2x.png"
+                  alt="Tablet paper wireframe for Fit Now search results screens"
+                />
+              </picture>
+              <div>
+                <div>
+                  <p>
+                    After completing the UI for mobile, l expanded the designs
+                    into tablet and desktop views to complete the responsive
+                    app. My navigation remained the same, but I scaled up the
+                    size of many elements and was able to add extra details to
+                    allow users to see more at a glance.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- close tablet and desktop paper wireframes two-->
+          </div>
+          <!-- close tablet and desktop paper wireframes-->
+          <div class="container-column">
+            <!-- open style guide -->
+            <div>
+              <!-- open style guide two -->
+              <h2>Style Guide</h2>
+              <picture>
+                <source
+                  srcset="img/fitnow/style-guide-1@1x.jpg"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/fitnow/style-guide-1@2x.jpg"
+                  alt="Fit Now Style Guide page 1"
+                />
+              </picture>
+              <picture>
+                <source
+                  srcset="img/fitnow/style-guide-2@1x.jpg"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/fitnow/style-guide-2@2x.jpg"
+                  alt="Fit Now Style Guide page 2"
+                />
+              </picture>
+              <div>
+                <div>
+                  <p>
+                    To ensure that my design guidelines for the Fit Now app can
+                    be consistently applied by anyone who picks up the project
+                    moving forward, I created a style guide.
+                  </p>
+                  <a
+                    href="https://www.dropbox.com/s/80o4hkjkbpgxpuq/Task%202.3%20Style%20Guide.pdf?dl=0"
+                    >Check out my full style guide here.</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- close style guide -->
+          </div>
+          <!-- close style guide two -->
+          <div class="container-column">
+            <!-- open prototype -->
+            <div>
+              <!-- open prototype two -->
+              <h2>Prototype</h2>
+              <p>View my interative prototype on InVision!</p>
+              <a href="https://invis.io/GUW67KON73X">Fit Now Prototype</a>
+            </div>
+            <!-- close prototype two -->
+          </div>
+          <!-- close prototype -->
+          <div class="container-column">
+            <div>
+              <h2>Animation</h2>
+              <p>
+                I created a simple, yet fun animation to get people excited to
+                begin their workout. After clicking the "start" button, the
+                animation launches and counts down. It elicits a feeling of
+                competition, which will motivate people to give their best
+                effort during the workout.
+              </p>
+              <picture>
+                <source
+                  srcset="img/fitnow/gif-fit-now1x.gif"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/fitnow/gif-fit-now@2x.gif"
+                  alt="Stop light gif animation"
+                />
+              </picture>
+            </div>
+          </div>
+          <div class="container-column">
+            <!-- open conclusion-->
+            <h2>Conclusion: The Final UI</h2>
+            <picture>
+              <source
+                srcset="img/fitnow/perspective-mockups-mobile-fn@1x.png"
+                media="(max-width:767px)"
+              />
+              <img
+                src="img/fitnow/perspective-mockups-mobile-fn@2x.png"
+                alt="Mobile perspective mockups for Fit Now app"
+              />
+            </picture>
+            <picture>
+              <source
+                srcset="img/fitnow/responsive-mockup-dashboard@1x.png"
+                media="(max-width:767px)"
+              />
+              <img
+                src="img/fitnow/responsive-mockup-dashboard@2x.png"
+                alt="Responsive Mockup for Fit Now dashboard screens"
+              />
+            </picture>
+          </div>
+          <!-- close conclusion-->
+        </div>
+        <!-- close row with everything in it -->
+      </div>
+      <!-- close container with everything in it -->
+    </main>
+    <footer id="contact">
+      <div class="container">
+        <div>
+          <h2>Get in Touch</h2>
+          <p>
+            Like my work and want to discuss opportunities? Please contact me by
+            Skype:
+            <a href="skype:jennifer.parker91_1">live.jennifer.parker91_1</a>.
+          </p>
+          <p>Or Contact me via Email:</p>
+          <div>
+            <a href="mailto:jennifer@gmail.com" class="button contact"
+              >Email me</a
+            >
+          </div>
+        </div>
+        <div class="social">
+          <!--- Social media -->
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/jennifer-parker-rd-ldn-a85b7498"
+                target="_blank"
+              >
+                <svg
+                  enable-background="new 0 0 32 32"
+                  height="50px"
+                  id="Layer_1"
+                  version="1.0"
+                  viewbox="0 0 32 32"
+                  width="50px"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <g>
+                    <path
+                      d="M32,30c0,1.104-0.896,2-2,2H2c-1.104,0-2-0.896-2-2V2c0-1.104,0.896-2,2-2h28c1.104,0,2,0.896,2,2V30z"
+                      fill="#007BB5"
+                    />
+                    <g>
+                      <rect fill="#FFFFFF" height="14" width="4" x="7" y="11" />
+                      <path
+                        d="M20.499,11c-2.791,0-3.271,1.018-3.499,2v-2h-4v14h4v-8c0-1.297,0.703-2,2-2c1.266,0,2,0.688,2,2v8h4v-7    C25,14,24.479,11,20.499,11z"
+                        fill="#FFFFFF"
+                      />
+                      <circle cx="9" cy="8" fill="#FFFFFF" r="2" />
+                    </g>
+                  </g>
+                  <g />
+                  <g />
+                  <g />
+                  <g />
+                  <g />
+                  <g />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/Jennife95719329" target="_blank">
+                <svg
+                  enable-background="new 0 0 48 48"
+                  id="Layer_11"
+                  version="1.1"
+                  viewbox="0 0 48 48"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <circle cx="24" cy="24" fill="#1CB7EB" r="24" />
+                  <g>
+                    <g>
+                      <path
+                        d="M36.8,15.4c-0.9,0.5-2,0.8-3,0.9c1.1-0.7,1.9-1.8,2.3-3.1c-1,0.6-2.1,1.1-3.4,1.4c-1-1.1-2.3-1.8-3.8-1.8    c-2.9,0-5.3,2.5-5.3,5.7c0,0.4,0,0.9,0.1,1.3c-4.4-0.2-8.3-2.5-10.9-5.9c-0.5,0.8-0.7,1.8-0.7,2.9c0,2,0.9,3.7,2.3,4.7    c-0.9,0-1.7-0.3-2.4-0.7c0,0,0,0.1,0,0.1c0,2.7,1.8,5,4.2,5.6c-0.4,0.1-0.9,0.2-1.4,0.2c-0.3,0-0.7,0-1-0.1    c0.7,2.3,2.6,3.9,4.9,3.9c-1.8,1.5-4.1,2.4-6.5,2.4c-0.4,0-0.8,0-1.3-0.1c2.3,1.6,5.1,2.6,8.1,2.6c9.7,0,15-8.6,15-16.1    c0-0.2,0-0.5,0-0.7C35.2,17.6,36.1,16.6,36.8,15.4z"
+                        fill="#FFFFFF"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.behance.net/jenniferparker4" target="_blank">
+                <svg
+                  enable-background="new 0 0 56.693 56.693"
+                  height="56.693px"
+                  id="Layer_12"
+                  version="1.1"
+                  viewbox="0 0 56.693 56.693"
+                  width="56.693px"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <g>
+                    <path
+                      d="M38.031,27.257c-3.174,0-3.615,3.168-3.615,3.168h6.748C41.164,30.425,41.207,27.257,38.031,27.257z"
+                    />
+                    <path
+                      d="M22.721,30.425h-5.982v5.492h5.296c0.09,0,0.225,0.002,0.383,0c0.852-0.02,2.467-0.268,2.467-2.67   C24.885,30.396,22.721,30.425,22.721,30.425z"
+                    />
+                    <path
+                      d="M28.348,5.101c-13.6,0-24.625,11.023-24.625,24.623c0,13.6,11.025,24.625,24.625,24.625   c13.598,0,24.623-11.025,24.623-24.625C52.971,16.125,41.945,5.101,28.348,5.101z M33.531,20.231h8.477v2.53h-8.477V20.231z    M29.246,33.503c0,6.271-6.525,6.064-6.525,6.064h-5.982h-0.175h-4.535V19.021h4.535h0.175h5.982c3.248,0,5.812,1.794,5.812,5.47   c0,3.676-3.135,3.91-3.135,3.91C29.531,28.401,29.246,33.503,29.246,33.503z M45.104,33.167H34.457   c0,3.816,3.615,3.576,3.615,3.576c3.414,0,3.295-2.211,3.295-2.211h3.617c0,5.867-7.033,5.465-7.033,5.465   c-8.436,0-7.893-7.855-7.893-7.855s-0.008-7.893,7.893-7.893C46.268,24.249,45.104,33.167,45.104,33.167z"
+                    />
+                    <path
+                      d="M24.174,24.81c0-2.137-1.453-2.137-1.453-2.137h-0.77h-5.212v4.584h5.611C23.318,27.257,24.174,26.946,24.174,24.81z"
+                    />
+                  </g>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p>Copyright Jennifer Parker 2020</p>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>

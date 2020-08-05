@@ -257,7 +257,9 @@ nav > ul > li > a:active {
 main {
     padding-top: 85px;
 }
-
+.column {
+    width: 100%;
+}
 #work .row {
     padding-bottom: 25px;
     border-bottom: 1px solid #4a4a4a;

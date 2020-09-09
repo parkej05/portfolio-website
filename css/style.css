@@ -44,7 +44,7 @@ img {
 }
 
 a:link {
-    color: #000000;
+    color: #03256c;
     text-decoration: none;
     font-weight: 600;
 }
@@ -58,7 +58,7 @@ a:hover {
     font-weight: 600;
 } 
 a:active {
-    color: #0059b2
+    color: #03256c
 }
 
 .button.cv {
@@ -105,12 +105,12 @@ box-shadow:         7px 7px 5px 0px rgba(39, 71, 99, 0.5);
 .button.contact {
     display: inline-block;
     background-color: transparent;
-    color: #167f6f !important;
+    color: #0059B2 !important;
     text-transform: uppercase;
     font-weight: 700;
     padding: 10px;
     border-radius: 8px;
-    border: 2px solid #167F6F;
+    border: 2px solid #0059B2;
     transition: 0.4s opacity;
     -webkit-box-shadow: 7px 7px 5px 0px rgba(39, 71, 99, 0.5);
 -moz-box-shadow:    7px 7px 5px 0px rgba(39, 71, 99, 0.5);
@@ -118,7 +118,7 @@ box-shadow:         7px 7px 5px 0px rgba(39, 71, 99, 0.5);
 }
 .button.contact:hover {
     border-radius: 8px;
-    background-color: #167f6f;
+    background-color: #0059B2;
     color: #ffffff !important;
 }
 

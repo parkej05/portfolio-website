@@ -63,6 +63,9 @@ a:active {
 
 .button.cv {
     display: inline-block;
+    margin-left: 300px;
+    margin-right: 100px;
+    margin-bottom: 50px;
     background-color: #03256c;
     color: #ffffff;
     font-weight: 700;
@@ -75,6 +78,28 @@ a:active {
 box-shadow:         7px 7px 5px 0px rgba(39, 71, 99, 0.5);
 }
 .button.cv:hover {
+    border-radius: 8px;
+    opacity: 0.8;
+    color: #ffffff;
+}
+
+.button.project {
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    background-color: #03256c;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 8px;
+    border-bottom: 2px solid #03256c;
+    transition: 0.4s opacity;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(39, 71, 99, 0.5);
+-moz-box-shadow:    7px 7px 5px 0px rgba(39, 71, 99, 0.5);
+box-shadow:         7px 7px 5px 0px rgba(39, 71, 99, 0.5);
+}
+.button.project:hover {
     border-radius: 8px;
     opacity: 0.8;
     color: #ffffff;
